@@ -1,0 +1,24 @@
+$x-color-black: #000;
+$x-color-blue: #093a6d;
+$x-color-white: #fff;
+
+$palette-primary: $x-color-black;
+$palette-secondary: $x-color-blue;
+$palette-tertiary: $x-color-white;
+
+$font-family-primary: "Roboto Condensed";
+$font-family-secondary: "PF Din Text Cond Pro";
+
+$font-family-base: $font-family-primary;
+
+$font-size-html: 10px;
+
+$text-color-primary: $palette-primary;
+$text-color-secondary: $palette-secondary;
+$text-color-tertiary: $palette-tertiary;
+
+$screen-xs: 575px;
+$screen-sm: 767px;
+$screen-md: 991px;
+$screen-lg: 1199px;
+$screen-xl: 1649px;

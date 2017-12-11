@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+	<!-- Title -->
+	<title>Книжная полка</title>
+	<!-- Custom styles -->
+	<link href="css/style.css" rel="stylesheet">
+	<!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/flexibility/2.0.1/flexibility.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<h1>Книжная полка</h1>
+			<button id="create" class="btn color-default">Добавить книгу</button>
+		</div>
+
+	</header>
+	<main>
+		<div class="container">
+			<div id="booklist" class="page">
+				<table class="table">
+					<tbody>
+						<tr>
+							<td>
+								<img src="https://ozon-st.cdn.ngenix.net/multimedia/1005511392.jpg" width="150px" alt="js">
+							</td>
+							<td>
+								<h2>JavaScript. Оптимизация производительности</h2>
+								<h3>Николас Закас</h3>
+								<span>2012 год</span>
+							</td>
+							<td>
+								<button class="btn edit color-edit">Редактировать</button>
+								<br>
+								<button class="btn del color-del">Удалить</button>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<img src="https://ozon-st.cdn.ngenix.net/multimedia/1002535209.jpg" width="150px" alt="js">
+							</td>
+							<td>
+								<h2>JavaScript. Шаблоны</h2>
+								<h3>Стоян Стефанов</h3>
+								<span>2011 год</span>
+							</td>
+							<td>
+								<button class="btn edit color-edit">Редактировать</button>
+								<br>
+								<button class="btn del color-del">Удалить</button>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<img src="https://ozon-st.cdn.ngenix.net/multimedia/1015269939.jpg" width="150px" alt="js">
+							</td>
+							<td>
+								<h2>ES6 и не только</h2>
+								<h3>Кайл Симпсон</h3>
+								<span>2017 год</span>
+							</td>
+							<td>
+								<button class="btn edit color-edit">Редактировать</button>
+								<br>
+								<button class="btn del color-del">Удалить</button>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<img src="https://ozon-st.cdn.ngenix.net/multimedia/1019046801.jpg" width="150px" alt="js">
+							</td>
+							<td>
+								<h2>Изучаем JavaScript. Руководство по созданию современных веб-сайтов</h2>
+								<h3>Этан Браун</h3>
+								<span>2017 год</span>
+							</td>
+							<td>
+								<button class="btn edit color-edit">Редактировать</button>
+								<br>
+								<button class="btn del color-del">Удалить</button>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div id="editbook" class="page popup">
+				<h2 class="page-title">Редактирование книги</h2>
+				<p>
+					<label for="title"><h3>Наименование</h3></label><br>
+					<input type="text" id="title" class="form" placeholder="Введите название книги">
+				</p>
+				<p>
+					<label for="author"><h3>Автор</h3></label><br>
+					<input type="text" id="author" class="form" placeholder="Введите имя автора книги">
+				</p>
+				<p>
+					<label for="year"><h3>Год выпуска</h3></label><br>
+					<input type="text" id="year" class="form" placeholder="Введите год издания книги">
+				</p>
+				<p>
+					<label for="image"><h3>Изображение</h3></label><br>
+					<input type="text" id="image" class="form" placeholder="Введите ссылку на изображение книги">
+				</p>
+				<p class="buttons">
+					<button id="save" class="btn save color-save">Сохранить</button>
+					<button id="cancel" class="btn cancel color-del">Отменить</button>
+				</p>
+
+			</div>
+		</div>
+	</main>
+	<script src="js/script.min.js" type="text/javascript" charset="utf-8" async defer></script>
+</body>
+</html>
