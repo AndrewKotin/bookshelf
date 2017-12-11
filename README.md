@@ -1,7 +1,9 @@
 # Getting Started
 
 0. You can see the work of the site by this [link](https://lorens163.github.io/)
-###OR
+
+### OR
+
 1. Install [node.js](https://nodejs.org/en/)
 
 2. Install [gulp.js](https://gulpjs.com/)
