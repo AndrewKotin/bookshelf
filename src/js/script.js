@@ -1,6 +1,8 @@
 /***
- * BOOK 228 Framework v.1.1.228
- * */
+* Andrew Kotin
+* https://github.com/Lorens163/bookshelf
+* BOOK Framework v.1.1.228
+* */
 //Класс сущности книги
 class Book {
     constructor(title, author, year, image) {
